@@ -14,7 +14,7 @@ Every app can either be deployed stand-alone, or combined with other apps in one
 1. [Deploy the app](#deploy-the-app)
     1. [Glitch](#glitch)
     1. [Heroku](#heroku)
-    1. [Vercel Now](#vercel-now)
+    1. [Vercel](#vercel)
 1. [Share the app](#share-the-app)
 1. [Combining apps](#combining-apps)
 1. [Error tracking](#error-tracking)
@@ -106,11 +106,11 @@ Probot runs like [any other Node app](https://devcenter.heroku.com/articles/depl
         $ heroku config:set LOG_LEVEL=trace
         $ heroku logs --tail
 
-### Vercel Now
+### Vercel
 
-Deploy Probot as a Serverless Function to [Vercel Now](http://vercel.com). After [creating the GitHub App](#create-the-github-app):
+Deploy Probot as a Serverless Function to [Vercel](http://vercel.com). After [creating the GitHub App](#create-the-github-app):
 
-1. Install Now CLI with `npm i -g now` and login with `now login`
+1. Install Vercel CLI with `npm i -g now` and login with `now login`
 
 1. Clone the app that you want to deploy. e.g. `git clone https://github.com/probot/stale`
 
